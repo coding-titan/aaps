@@ -14,7 +14,7 @@ h2 {
     display: block;
 }
 
-p {
+p, figcaption {
     font-weight: lighter;
     font-size: 1rem;
 }
