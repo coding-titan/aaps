@@ -4,6 +4,27 @@
     scroll-behavior: smooth;
 }
 
+header {
+    position: fixed;
+    right: 0px;
+    z-index: 10;
+}
+
+#logo {
+    float: right;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#logo a:hover {
+    background-color: white;
+}
+
 body {
     background: linear-gradient(#fa7312a7, #D55A04);
 }
@@ -35,7 +56,7 @@ img {
 #hero h1 {
     grid-area: 2 / 2 / 3 / 3;
     text-align: left;
-    z-index: 100;
+    z-index: 9;
     background-color: #fa7312a7;
     position: relative;
     bottom: 30vh;
