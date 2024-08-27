@@ -12,3 +12,11 @@ p {
     font-weight: lighter;
     font-size: 1rem;
 }
+
+header {
+    color: black;
+}
+
+footer {
+    color: white;
+}

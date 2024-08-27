@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(#fa7312a7, #D55A04);
+}
+
+section {
+    height: 100vh;
+}
+
+#hero {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+#hero h1 {
+    grid-area: 2 / 2 / 3 / 3;
+    text-align: left;
+}
+
+#
