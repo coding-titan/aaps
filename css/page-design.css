@@ -7,16 +7,20 @@ body {
     background: linear-gradient(#fa7312a7, #D55A04);
 }
 
-header {
-    height: 10vh;
-}
-
 section {
     height: 100vh;
 }
 
 img {
     width: 30vw;
+}
+
+.black {
+    color: black;
+}
+
+.black a:hover {
+    background-color: white;
 }
 
 /* Hero */
@@ -34,6 +38,7 @@ img {
     background-color: #fa7312a7;
     position: relative;
     bottom: 30vh;
+    align-self: end;
 }
 
 #hero-img-1 {
@@ -50,10 +55,29 @@ img {
     left: 13rem;
 }
 
+/* Gallery */
+
+#gallery {
+
+}
+
 /* Punchline */
 
 #punchline {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    float: right;
+    padding: 2rem;
+}
+
+footer a {
+    color: inherit;
 }

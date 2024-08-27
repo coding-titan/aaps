@@ -8,6 +8,12 @@ h1 {
     font-size: 5rem;
 }
 
+h2 {
+    font-weight: lighter;
+    font-size: 3rem;
+    display: block;
+}
+
 p {
     font-weight: lighter;
     font-size: 1rem;
@@ -23,6 +29,7 @@ footer {
 
 a {
     transition: background-color, 0.3s ease-in-out;
+    color: inherit;
 }
 
 a:visited {
@@ -30,5 +37,5 @@ a:visited {
 }
 
 a:hover {
-    background-color: aliceblue;
+    background-color: #000000;
 }
